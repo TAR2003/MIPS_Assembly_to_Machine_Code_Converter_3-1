@@ -1,0 +1,21 @@
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+lvl: add $t1, $zero, $t2
+add $t1, $zero, $t2
+beq $t1, $t1, ad
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+add $t1, $zero, $t2
+ad: add $t1, $zero, $t2
+j ad

@@ -398,11 +398,22 @@ line++;
         ans += "8661";
         ans += '\n';
         ans += "D6" + process($2.stinfo->getType()) + "0\n"; 
-        line+=2;;
+        line+=2;
      }
      
      | PUSH NUMBER LPAREN REG RPAREN {
-        
+        //ans += 
+        //ans += 
+        ans += "D";
+        ans += process($4.stinfo->getType());
+        ans += "7";
+        ans += process($2.stinfo->getType());
+        ans += '\n';
+        ans += "B670\n"; 
+        ans += "5661";
+        ans += '\n';
+        line+=3;
+
      }
 ;
 
